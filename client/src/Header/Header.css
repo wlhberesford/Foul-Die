@@ -1,0 +1,22 @@
+.header-div{
+    width: 100%;
+    height: auto;
+    background-color: var(--clr-bg-alt);
+
+    border-bottom: 10px;
+    border-color: var(--clr-acc-dark);
+
+    
+
+}
+
+.header-title{
+    color: var(--clr-acc-light);
+    font-family: Jazz LET, fantasy;
+    font-variant:small-caps;
+    font-stretch: expanded;
+
+    font-size: 10vh;
+    margin:0;
+}
+
