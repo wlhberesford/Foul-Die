@@ -12,11 +12,11 @@
 
 .header-title{
     color: var(--clr-acc-light);
-    font-family: Jazz LET, fantasy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, fantasy;
     font-variant:small-caps;
     font-stretch: expanded;
 
     font-size: 10vh;
-    margin:0;
+    margin: auto;
 }
 
