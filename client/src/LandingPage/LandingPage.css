@@ -1,0 +1,47 @@
+.LandingPage {
+    min-height: 100vh;
+    width: 100vw;
+  
+    text-align: center;
+  
+    background-color: var(--clr-bg-alt);
+
+    padding: 20%;
+
+    
+}
+
+.LandingPage-inner{
+    width:50vw;
+    height:max-content;
+    padding: 5vw;
+
+    
+
+    /* margin-left:auto;
+    margin-right:auto; */
+
+
+    border-radius: 10vw;
+
+    background-color: var(--clr-bg-main);
+}
+
+.landing-title{
+    color: var(--clr-acc-dark);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, fantasy;
+    font-variant:small-caps;
+    font-stretch: expanded;
+
+    font-size: 10vh;
+    margin: auto;
+}
+
+.css-ahj2mt-MuiTypography-root{
+    color: var(--clr-acc-dark);
+
+}
+.css-jsexje-MuiSwitch-thumb{
+    color: var(--clr-acc-light);
+
+}

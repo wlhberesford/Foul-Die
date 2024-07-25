@@ -19,19 +19,12 @@ function DieRoller() {
         let new_num=Math.floor(Math.random()*6)+1;
         setDieNum(new_num);
         setDieFace(faces[new_num-1]);
-
-        console.log(die_num);
-        console.log(die_face);
     }
 
     return(
         <div className='die-outer'>
-            <div className='die-inner' onClick={onRoll}>
-                
-                    {die_face}
-                
-
-            
+            <div className='die-inner' onClick={onRoll}>           
+                {die_face}
             </div>
             <p>{die_num}</p>
             

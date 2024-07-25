@@ -1,14 +1,13 @@
 import './App.css';
-import Header from './Header/Header.js'
-import DieRoller from './DieRoller/DieRoller.js';
+import LandingPage from './LandingPage/LandingPage'
+//import RollScreen from './RollScreen/RollScreen';
 
 
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <DieRoller />
+      <LandingPage />
 
     </div>
   );
