@@ -45,3 +45,12 @@
     color: var(--clr-acc-light);
 
 }
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root{
+    background-color: var(--clr-acc-light);
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+    color: var(--clr-acc-dark);
+    background-color: var(--clr-acc-dark);
+}
