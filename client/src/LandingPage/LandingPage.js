@@ -59,6 +59,7 @@ const MakeParty = () =>{
         <div className='enter-party'>
             <Stack direction="column" gap={2}>
                 <TextField id="name" label="Name" variant="outlined" />  
+                <TextField id="party-name" label="Party" variant="outlined" />  
 
                 <Grid container spacing={2}>
                     <Grid item xs={6} md={8}>

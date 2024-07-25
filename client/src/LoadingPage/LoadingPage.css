@@ -1,0 +1,19 @@
+.loading-die-outer{
+    width: 100vw;
+    height: 100vh;
+    padding:35vw;
+}
+
+.loading-die-inner{
+    width:30vw;
+    height:30vw;
+
+    border-radius: 20%;
+
+    background-color: var(--clr-acc-dark);
+
+}
+
+.loading-text{
+    width:30vw;
+}

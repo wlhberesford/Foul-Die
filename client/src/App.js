@@ -1,13 +1,14 @@
 import './App.css';
-import LandingPage from './LandingPage/LandingPage'
+//import LandingPage from './LandingPage/LandingPage'
 //import RollScreen from './RollScreen/RollScreen';
+import LoadingPage from './LoadingPage/LoadingPage';
 
 
 
 function App() {
   return (
     <div className="App">
-      <LandingPage />
+      <LoadingPage />
 
     </div>
   );
