@@ -1,5 +1,5 @@
 .header-div{
-    width: 100%;
+    width: 100vw;
     height: auto;
     background-color: var(--clr-bg-alt);
 
@@ -17,6 +17,7 @@
     font-stretch: expanded;
 
     font-size: 10vh;
-    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 

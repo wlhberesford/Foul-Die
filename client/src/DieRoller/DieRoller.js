@@ -8,7 +8,6 @@ import FaceFive from './DieFaces/FaceFive.js';
 import FaceSix from './DieFaces/FaceSix.js';
 
 
-
 function DieRoller() {
     const faces=[FaceOne, FaceTwo, FaceThree, FaceFour, FaceFive, FaceSix];
 
@@ -25,9 +24,7 @@ function DieRoller() {
         <div className='die-outer'>
             <div className='die-inner' onClick={onRoll}>           
                 {die_face}
-            </div>
-            <p>{die_num}</p>
-            
+            </div>            
         </div>
     );
 }
