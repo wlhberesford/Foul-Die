@@ -8,6 +8,7 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import { alpha, styled } from '@mui/material/styles';
 import { Stack } from '@mui/material';
 import Grid from '@mui/material/Grid';
+import {NavLink} from 'react-router-dom';
 
 
 const colors = createTheme({
@@ -47,8 +48,9 @@ const EnterParty = () =>{
                 <TextField id="party-code" label="Party Code" variant="outlined" />
 
                 <TextField id="name" label="Name" variant="outlined" />
-
-                <ColorButton variant="text">Enter</ColorButton>
+                <NavLink to="roll">
+                    <ColorButton variant="text">Enter</ColorButton>
+                </NavLink>
             </Stack>
         </div>
     );
@@ -81,7 +83,9 @@ const MakeParty = () =>{
                         <TextField id="punishment6" label="Punishment" variant="outlined" />  
                     </Grid>
                 </Grid>
-                <ColorButton variant="text">Enter</ColorButton>
+                <NavLink to="roll">
+                    <ColorButton variant="text">Enter</ColorButton>
+                </NavLink>
             </Stack>
         </div>
     );
@@ -97,8 +101,6 @@ function changeForm(state){
 function LandingPage() {
     const [newParty, SetNewParty]=useState(false);
     const [partyForm, SetPartyForm]=useState(EnterParty);
-
-    
 
     return (
         <div className="LandingPage">

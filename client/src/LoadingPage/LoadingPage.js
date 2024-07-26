@@ -39,8 +39,8 @@ function LoadingPage() {
         <div className='loading-die-outer'>
             <div className='loading-die-inner'>           
                 {die_face}
+                <h1 className='loading-text'>{loadingText}</h1>
             </div>
-            <h1 className='loading-text'>{loadingText}</h1>
             
         </div>
     );
