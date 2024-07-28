@@ -82,7 +82,7 @@ function PartyFeed() {
     >
     <FixedSizeList
         height={28*(window.innerHeight/100)}
-        width={95*(window.innerWidth/100)}
+        width={window.innerWidth}
         itemSize={5*(window.innerHeight/100)}
         itemCount={testFeed.length}
         overscanCount={5}
