@@ -7,6 +7,13 @@ import FaceFour from './DieFaces/FaceFour.js'
 import FaceFive from './DieFaces/FaceFive.js';
 import FaceSix from './DieFaces/FaceSix.js';
 
+import {io} from 'socket.io-client';
+
+const socket = io('http://localhost:5000');
+socket.on("connect", () =>{
+    console.log("You connected ",socket.id)
+});
+
 
 function DieRoller() {
     const faces=[FaceOne, FaceTwo, FaceThree, FaceFour, FaceFive, FaceSix];
@@ -18,6 +25,7 @@ function DieRoller() {
         let new_num=Math.floor(Math.random()*6)+1;
         setDieNum(new_num);
         setDieFace(faces[new_num-1]);
+        socket.emit('roll-message','name',new_num,"Name rolled a "+new_num)
     }
 
     return(

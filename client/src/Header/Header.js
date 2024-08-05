@@ -6,6 +6,7 @@ import ListItem from '@mui/material/ListItem';
 import Box from '@mui/material/Box';
 import ListItemText from '@mui/material/ListItemText';
 import { Divider } from '@mui/material';
+import { NavLink } from 'react-router-dom';
 
 
 function MyHeader() {
@@ -24,14 +25,20 @@ function MyHeader() {
     >
       <List >
         <ListItem>
-          <h2>Party members</h2>
+          <NavLink to='members'>
+            <h2>Party members</h2>
+          </NavLink>
         </ListItem>
         <ListItem>
-          <h2>Roll Screen</h2>
+          <NavLink to='roll'>
+            <h2>Roll Screen</h2>
+          </NavLink>
         </ListItem>
         <Divider/>
         <ListItem>
-          <h2>Leave Party</h2>
+          <NavLink to='/'>
+            <h2>Leave Party</h2>
+          </NavLink>
         </ListItem>
       </List>
     </Box>
